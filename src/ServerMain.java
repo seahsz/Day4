@@ -58,3 +58,7 @@ public class ServerMain {
 
 // Takeaways: the first connection (the first socket) will have to run finish the entire code before another connection 
 //  can be accepted because the code has not reached server.accept() a 2nd time
+
+// Takeaways: 
+//      1. DataOutputStream / DataInputStream
+//              - this is for writing and reading primitive types (aside from byte)
